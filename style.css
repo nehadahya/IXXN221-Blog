@@ -112,3 +112,60 @@ padding-top: 3%;
         margin-left: 5%;
         margin-bottom: 3%;       
     }
+
+/*Week Seven Content */
+#weekseven{
+    line-height: 160%;
+    border-bottom:solid purple;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    }
+
+/*Week Eight Content */
+#weekeight{
+    line-height: 160%;
+    border-bottom:solid purple;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    }
+
+
+
+    /* Navigation */
+    #name {
+        float: left;
+    }
+
+    #navigation {
+        list-style-type: none;
+        margin: 5px;
+        padding: 15px;
+        text-align: center;
+        overflow: hidden;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #navigation a {
+        display:inline-block;
+        width: 100px;
+        text-decoration: none;
+    }
+
+    #navigation li {
+        float: right;
+    } 
+
+/* unvisited link */
+    #navigation a:link{
+        color:black;
+    }
+
+/* link when it has been clicked on */
+    #navigation a:visited{
+        color:black;
+    }
+
+/*mouse over link */
+    #navigation a:hover{
+        color:purple;
+    }
