@@ -1,0 +1,114 @@
+body {
+    
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 3%;
+    /* background-color: rgb(250, 246, 252); */
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+        
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 15px;
+}
+
+/*Week One Content */
+#weekone{
+line-height: 160%;
+border-bottom:solid purple;
+padding-bottom: 3%;
+padding-top: 3%;
+}
+  
+.namecard {
+    float: right;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    width: 35%;    
+
+}
+
+
+/*Week Two Content */
+#weektwo{
+    line-height: 160%;
+    border-bottom:solid purple;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    
+    }
+      
+    .WSpersona1 {
+        width: 50%;
+        float: right;
+        margin-left:5% ;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+
+/*Week Three Content */
+#weekthree {
+    line-height: 160%;
+    border-bottom:solid purple;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    
+    }
+      
+    .WSVenn {
+        width: 50%;
+        float: right;
+        margin-left:5% ;
+        margin-bottom: 3%;
+        
+    }
+
+
+/*Week Four Content */
+#weekfour {
+    line-height: 160%;
+    border-bottom:solid purple;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    
+    }
+      
+/*Week Five Content */
+#weekfive{
+    line-height: 160%;
+    border-bottom:solid purple;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    
+    }
+
+    .P1 {
+        width: 50%;
+        float: left;
+        margin-right: 5%;
+        margin-bottom: 8%;       
+    }
+
+/*Week Six Content */
+#weeksix{
+    line-height: 160%;
+    border-bottom:solid purple;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    }
+
+    .WSCritique {
+        width: 50%;
+        float: right;
+        margin-left: 5%;
+        margin-bottom: 3%;       
+    }
