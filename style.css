@@ -1,171 +1,89 @@
 body {
-    
-    margin-left: 15%;
-    margin-right:15%;
-    margin-top: 3%;
-    /* background-color: rgb(250, 246, 252); */
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 7% 93%;
+    grid-template-areas: 
+        "header"
+        "main" "main" "main";
 }
 
-h1 {
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-        
-}
-
-h2 {
+h2{
     text-decoration: underline;
 }
 
-p {
-    font-size: 15px;
+header{
+    margin: 2%;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 15% 30% auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav1 nav2 nav3 nav4 nav5 nav6 nav7 nav8 nav9 nav10 nav11 nav12 nav13 nav14";   
 }
 
-/*Week One Content */
-#weekone{
-line-height: 160%;
-border-bottom:solid purple;
-padding-bottom: 3%;
-padding-top: 3%;
+nav:nth-of-type(1) {
+    grid-area: nav1;   
 }
-  
-.namecard {
-    float: right;
-    margin-left: 15%;
-    margin-bottom: 3%;
-    width: 35%;    
 
+nav:nth-of-type(2) {
+    grid-area: nav2;   
+}
+
+nav:nth-of-type(3) {
+    grid-area: nav3;
 }
 
 
-/*Week Two Content */
-#weektwo{
-    line-height: 160%;
-    border-bottom:solid purple;
-    padding-bottom: 3%;
-    padding-top: 3%;
+.main {
+    grid-area: main;
+    margin: 7%;
+    display: grid;
+    grid-template-columns: 50% 10% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: "section1 section2 section3";
+    border-bottom: black;
+
+}
+
+section:nth-of-type(1) {
+    grid-area: section1;
     
-    }
-      
-    .WSpersona1 {
-        width: 50%;
-        float: right;
-        margin-left:5% ;
-        margin-bottom: 3%;
-        margin-top: 3%;
-    }
+}
 
+section:nth-of-type(2) {
+    grid-area: section2;
+}
 
-/*Week Three Content */
-#weekthree {
-    line-height: 160%;
-    border-bottom:solid purple;
-    padding-bottom: 3%;
-    padding-top: 3%;
+section:nth-of-type(3) {
+    grid-area: section3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    }
-      
-    .WSVenn {
-        width: 50%;
-        float: right;
-        margin-left:5% ;
-        margin-bottom: 3%;
-        
-    }
+}
 
 
-/*Week Four Content */
-#weekfour {
+
+
+p{
     line-height: 160%;
-    border-bottom:solid purple;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    
-    }
-      
-/*Week Five Content */
-#weekfive{
-    line-height: 160%;
-    border-bottom:solid purple;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    
-    }
-
-    .P1 {
-        width: 50%;
-        float: left;
-        margin-right: 5%;
-        margin-bottom: 8%;       
-    }
-
-/*Week Six Content */
-#weeksix{
-    line-height: 160%;
-    border-bottom:solid purple;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    }
-
-    .WSCritique {
-        width: 50%;
-        float: right;
-        margin-left: 5%;
-        margin-bottom: 3%;       
-    }
-
-/*Week Seven Content */
-#weekseven{
-    line-height: 160%;
-    border-bottom:solid purple;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    }
-
-/*Week Eight Content */
-#weekeight{
-    line-height: 160%;
-    border-bottom:solid purple;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    }
+}
 
 
-
-    /* Navigation */
-    #name {
-        float: left;
-    }
-
-    #navigation {
-        list-style-type: none;
-        margin: 5px;
-        padding: 15px;
-        text-align: center;
-        overflow: hidden;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    #navigation a {
-        display:inline-block;
-        width: 100px;
+ a:link{
+        color:black;
         text-decoration: none;
-    }
-
-    #navigation li {
-        float: right;
     } 
 
-/* unvisited link */
-    #navigation a:link{
+ a:visited{
         color:black;
     }
 
-/* link when it has been clicked on */
-    #navigation a:visited{
-        color:black;
-    }
-
-/*mouse over link */
-    #navigation a:hover{
+a:hover{
         color:purple;
-    }
+    } 
