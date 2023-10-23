@@ -3,7 +3,7 @@ body {
     padding:0;
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-color: rgb(253, 253, 253);
     display:grid;
     grid-template-columns: auto;
     grid-template-rows: 7% 93%;
@@ -13,7 +13,20 @@ body {
 }
 
 h2{
-    text-decoration: underline;
+    color: rgb(73, 19, 120);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large;
+}
+
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: rgb(121, 83, 154);
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 170%;
 }
 
 header{
@@ -24,6 +37,7 @@ header{
     grid-template-rows: auto;
     grid-template-areas: 
     "nav1 nav2 nav3 nav4 nav5 nav6 nav7 nav8 nav9 nav10 nav11 nav12 nav13 nav14";   
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav:nth-of-type(1) {
@@ -69,12 +83,6 @@ section:nth-of-type(3) {
 
 
 
-
-p{
-    line-height: 160%;
-}
-
-
  a:link{
         color:black;
         text-decoration: none;
@@ -85,5 +93,5 @@ p{
     }
 
 a:hover{
-        color:purple;
+    color: rgb(121, 83, 154);
     } 
